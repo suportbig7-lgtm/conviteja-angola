@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="container" style={{padding:'90px 0',textAlign:'center'}}><div className="eyebrow">404 · Página não encontrada</div><h1 style={{fontSize:42}}>Perdeste o convite?</h1><p className="muted">Esta página não existe ou já não está disponível.</p><Link className="btn btn-primary" href="/events">Explorar eventos</Link></main>}
